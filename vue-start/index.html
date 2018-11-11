@@ -1,0 +1,36 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>第二个页面</title>
+        <meta charset="utf-8">
+    </head>
+<body>
+    <div id="app">
+        <h1 v-show="isShow" @click="nameChange">{{name}}</h1>
+        <h2 @click="add">{{a}}</h2>
+        <button @click="toggleShow">{{isShow ? '隐藏' : '显示'}}</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                name: '周斌',
+                isShow: true,
+                a:1
+            },
+            methods: {
+                nameChange () {
+                    this.name = '朱莉'
+                },
+                toggleShow () {
+                    this.isShow = !this.isShow;
+                },
+                add(){
+                    this.a++;
+                }
+            }
+        })
+    </script>
+</body>
+</html>

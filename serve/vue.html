@@ -1,0 +1,44 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>serve</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div id="box" @click="request">
+            <button>请求</button>
+
+            <p>{{msg}}</p>
+        </div>
+        <script>
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    
+        <script>
+        
+           var vm = new Vue({
+               el: '#box',
+               data: {
+                msg: 'hello'
+               },
+               methods: {
+                   request() {
+                        var _this = this;
+                        var xhr = new XMLHttpRequest();
+                        var data = new FormData();
+                        data.append('id', 1);
+                    
+                        xhr.open('post', '/test')
+
+                        xhr.send(data);
+
+                        xhr.onload = function () {
+                            console.log(this.responseText.name)
+                            vm.msg = JSON.parse(this.responseText).name;
+                        }
+                   }
+               }
+           })
+        </script>
+    </body>
+</html>

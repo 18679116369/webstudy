@@ -1,0 +1,162 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>第一个页面</title>
+        <meta charset="utf-8">
+        <style>
+            html{
+                font-size: 20px;
+            }
+            header{
+                height: 200px;
+                background: #f87;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            /*header div{
+                float: left;
+                width: 33.33%;
+                height: 100%;
+                border: 1px solid #ddd;
+                box-sizing: border-box;
+            }*/
+            header div{
+                width: 50%;
+                border: 1px solid #ddd;
+                box-sizing: border-box;
+                
+            }
+            .ui{
+                height: 200px;
+                background: #f32994;
+                display: flex;
+            }
+            /*.ui .uu{
+                float: left;
+                width: 20%;
+                height: 100%;
+                border: 1px solid #ddd;
+                box-sizing: border-box;
+            }
+            .ui .ii{
+                float: left;
+                width: 30%;
+                height: 100%;
+                border: 1px solid #ddd;
+                box-sizing: border-box;
+            }
+            .ui .iu{
+                float: left;
+                width: 50%;
+                height: 100%;
+                border: 1px solid #ddd;
+                box-sizing: border-box;
+            }*/
+            .ui:hover{  /*hover 鼠标移入*/
+                background: blue;
+            }
+            .ui div:nth-child(1){
+                width:20%;
+                border: 1px solid #ddd;
+                box-sizing: border-box;
+            }
+            .ui .ii{
+                width:30%;
+                border: 1px solid #ddd;
+                box-sizing: border-box;
+            }
+            .ui .iu{
+                width:50%;
+                border: 1px solid #ddd;
+                box-sizing: border-box;
+            }
+
+            .box{
+                border: 3px solid rgb(139, 31, 31);
+            }
+            /*.box:after{
+                content: '';
+                height: 0;
+                clear: both;
+                display: block;
+            }*/
+            .box div:last-child{
+                height: 0;
+                clear: both;
+                float: none;
+            }
+            .box div{
+                float: left;
+                height: 200px;
+                width: 25%;
+                background: yellow;
+            }
+
+            .box2{
+                height: 400px;
+                background: #8f4;
+                /*display: flex;
+                align-items: center;  第一种flex布局 */
+                position: relative;
+            }
+            .box2 div{
+                height: 100px;
+                width: 100px;
+                background: #ddd;
+                margin: auto;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                animation: ro 2s linear infinite;
+            }
+            p{
+                height: 100px;
+                background:cornflowerblue;
+                text-align: center;
+                line-height: 100px;
+            }
+
+@keyframes ro {
+    from{
+        transform: rotate(0) scale(.5);
+        background: red;
+        border-radius: 0;
+    
+    }
+    to{
+        transform: rotate(360deg) scale(1.2);
+        background: blue;
+        border-radius: 50%;
+    
+    }
+}
+        </style>
+    </head>
+    <body>
+        <header>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </header>
+
+        <div class="ui">
+            <div class="uu">1</div>
+            <div class="ii">2</div>
+            <div class="iu">3</div>
+        </div>
+
+        <div class="box">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div></div>
+        </div>
+        <div class="box2">  
+            <div></div>
+        </div>
+        <p>周斌</p>
+        <div style="height: 1rem;background: #8f4;"></div>
+    </body>
+</html>

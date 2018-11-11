@@ -1,0 +1,95 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>第一个页面</title>
+        <meta charset="utf-8">
+        <style>
+            h1{
+                font-size: 12px;
+            }
+            .h1.h-1{
+                font-size: 20px;
+            }
+            /* 标签选择器*/
+            
+            .root{
+                color: blue;
+            }
+            .root h1{
+                font-size: 36px;
+            }
+            .root>p{
+                color: red;
+            }
+            /* class选择器*/
+            #aa{
+                user-select: none;
+            }
+            /* id 选择器*/
+            /* #h1{
+                font-size: 48px;
+            } */
+            .rr {
+                color: blueviolet;
+                border: 1px solid #dddddd;
+                background: rgba(0, 0 ,255 );
+            }
+        </style>
+    </head>
+    <body>
+        <div class="root">
+            <h1 class="h1 h-1" id="h1">第一个页面</h1>
+            <p id="aa">第一个段落</p>
+            <span>54545454</span><br>
+            <span>452</span>
+            <p id="baidu">baidu <br></p>
+
+                <div class="rr">
+                    4444
+                    <p>QQ</p>
+                </div>
+            
+            <input type="password" id="input">
+            <select name="dasd" id="se">
+                <option value="22">sd</option>
+                <option value="33">sdsds</option>
+                <option value="44">sdf</option>
+                <option value="44">sdgsd</option>
+            </select>
+            <input type="text" name="website">
+            <button>跳转</button>
+        </div>
+        <script>
+            window.onload = function (){
+                console.log(document.getElementById('aa'))
+                document.getElementById('aa').onmouseleave = function (e) {
+                    var rr = function () {
+                        return parseInt(Math.random() * 255)
+                    }
+                
+                    e.target.style.color = 'rgba(' + rr() + ',' + rr() + ',' + rr() + ')'
+                    console.log(e.target.innerText)
+                }
+
+                document.getElementById('baidu').onclick = function () {
+                    // location.href = 'http://www.baidu.com'
+                    window.open('http://www.baidu.com')
+                }
+
+                document.getElementById('input').oninput = function (e) {
+                    console.log(e.target.value)
+                }
+                document.getElementById('se').onchange = function (e) {
+                    console.log(e.target.value)
+                }
+                document.getElementsByTagName("button")[0].onclick = function(){
+                     var a =  document.getElementsByClassName("website")[0].value;
+                    open('http://' + a)
+                }
+                document.gete
+                
+
+            }
+        </script>
+    </body>
+</html>

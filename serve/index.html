@@ -1,0 +1,30 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>serve</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div id="box">
+            请求
+        </div>
+        <p ></p>
+        <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script>
+            $('#box').click(function(){
+
+                $.ajax({
+                    type: 'post',//请求类型
+                    url: '/test',//请求路径
+                    data: {//请求参数
+                        id: 1,
+                    },
+                    success: function(res) {    //成功回调需要执行的操作                  
+                        $('p').text(res.name)//请求到的数据显示到p节点上
+                    }
+                })
+                
+            })
+        </script>
+    </body>
+</html>
