@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>清除浮动</title>
+  <style>
+    .first{
+      border: 1px solid #88ff44;
+    }
+    .first:after{
+      content: '';
+      display: block;
+      clear: both;
+    }
+    .first>div{
+      float: left;
+      width: 33.33%;
+      height: 200px;
+    }
+    .first>div:nth-child(1){
+      background: #f00;
+    }
+    .first>div:nth-child(2){
+      background: #0f0;
+    }
+    .first>div:nth-child(3){
+      background: #00f;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="first">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <div style="height: 100px;background: #0f000f;">
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>清除浮动</title>
+  <style>
+    .first{border: 1px solid red}
+    .first:after{
+      content: "";
+      display: block;
+      clear: both;
+    }
+    .first>div{
+      height: 200px;
+      float: left;
+      width: 33%;
+    }
+    .first>.one{background: #88ff44}
+    .first>.two{background: #f32994}
+    .first .three{background: #ff8877}
+
+  </style>
+</head>
+<body>
+  <div class="first">
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+  </div>
+</body>
+<script>
+  var a = [1,3,7,5,6,4,8,9,5,6,4,8,3];
+  function f(arr) {
+    var result = []
+    result.push(arr[0])
+    for(var i = 0;i < arr.length; i++){
+      for(var j = i;j<arr.length;j++){
+        if(arr[i] !== arr[j] && result.indexOf(arr[j]) === -1){
+          result.push(arr[j])
+        }
+      }
+    }
+    console.log(result);
+  }
+  f(a);
+
+</script>
+</html>

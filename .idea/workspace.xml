@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3aacc97d-377d-403a-a514-0a204be5730f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first/clearDemo.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1548100605">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="2" />
+          <entry key="html" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="2" />
+          <entry key="PLAIN_TEXT" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="18" />
+          <entry key="html" value="1147" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="1147" />
+          <entry key="PLAIN_TEXT" value="18" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/first/clear.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/first/clearDemo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/first/clear.html" />
+        <option value="$PROJECT_DIR$/first/clearDemo.css" />
+        <option value="$PROJECT_DIR$/first/clearDemo.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/serve/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/serve/node_modules/accepts/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/array-flatten/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/body-parser/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/bytes/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/content-disposition/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/content-type/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/cookie-signature/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/cookie/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/depd/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/destroy/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/ee-first/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/encodeurl/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/escape-html/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/etag/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/express/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/finalhandler/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/forwarded/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/fresh/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/http-errors/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/ipaddr.js/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/media-typer/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/merge-descriptors/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/methods/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/negotiator/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/on-finished/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/parseurl/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/path-to-regexp/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/proxy-addr/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/range-parser/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/raw-body/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/send/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/serve-static/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/type-is/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/unpipe/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/utils-merge/package.json" />
+      <path value="$PROJECT_DIR$/serve/node_modules/vary/package.json" />
+      <path value="$PROJECT_DIR$/serve/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="webstudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webstudy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webstudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webstudy" type="462c0819:PsiDirectoryNode" />
+              <item name="first" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="PLAIN_TEXT" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3aacc97d-377d-403a-a514-0a204be5730f" name="Default Changelist" comment="" />
+      <created>1543113551624</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543113551624</updated>
+      <workItem from="1543113552889" duration="5659000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5659000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/first/clearDemo.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first/clear.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first/clearDemo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
